@@ -1,0 +1,11 @@
+/InvestoBank
+│── index.html        (Página inicial)
+│── login.html        (Página de login)
+│── cadastro.html     (Página de cadastro)
+│── painel.html       (Área do usuário)
+│── sobre.html        (Página sobre nós)
+│── contato.html      (Página de contato)
+│── styles/           (Pasta para estilos)
+│    ├── style.css    (Arquivo principal de CSS)
+│── scripts/          (Pasta para JavaScript)
+│    ├── script.js    (Arquivo principal de JS)
