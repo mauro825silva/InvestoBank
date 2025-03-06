@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InvestoBank</title>
+    <title>Login - InvestoBank</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -14,15 +14,22 @@
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a href="login.html" class="btn">Entrar</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Invista com Segurança e Facilidade</h2>
-        <p>Ganhe retornos semanais com investimentos confiáveis.</p>
-        <a href="cadastro.html" class="btn">Criar Conta</a>
+    <section class="login-container">
+        <h2>Entrar na sua conta</h2>
+        <form action="painel.html" method="POST">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
     </section>
 </body>
 </html>
